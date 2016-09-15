@@ -1,0 +1,5 @@
+.layout {
+  @include flex_layout();
+  @include flex_items($margin: 0 0);
+  height: 100%;
+}
